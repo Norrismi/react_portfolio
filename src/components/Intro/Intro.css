@@ -1,0 +1,33 @@
+.intro-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, "Segoe UI",  sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.intro-name{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.intro-mission {
+    width: 380px;
+}
+
+#intro-link{
+    text-decoration: none;
+}
+

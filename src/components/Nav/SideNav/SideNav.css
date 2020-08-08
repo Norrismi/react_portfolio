@@ -1,0 +1,20 @@
+
+.left-side {
+    flex-direction: column;
+    height: auto;
+}
+
+
+.link {
+    display: flex;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.link:hover {
+    display: flex;
+    justify-content: flex-end !important;
+    /* background-color: white; */
+    color: greenyellow !important;
+    border-radius: 25px;
+}

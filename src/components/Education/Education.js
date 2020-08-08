@@ -1,14 +1,19 @@
-
-import React from 'react'
+import React from "react";
+import SideNav from "../Nav/SideNav/SideNav";
 
 const Education = () => {
-    return (
+  return (
+    <div className="page-container">
+      <div className="navbar sticky-top bg-dark left-side ">
+        <SideNav />
+      </div>
 
-    <div>
-        hello from Education
+      <div className="me-container right-side">
+        <br />
+        Hello from Education
+      </div>
     </div>
-    )
-}    
+  );
+};
 
-export default Education
-
+export default Education;
