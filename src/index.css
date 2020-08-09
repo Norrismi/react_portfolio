@@ -1,5 +1,12 @@
+*{
+  font-family: Roboto, "Segoe UI",  sans-serif;
+}
+
+
 body {
   box-sizing: border-box;
   margin: 0px;
   /* background-color: #343A40 !important; */
+ 
 }
+
