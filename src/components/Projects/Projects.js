@@ -3,25 +3,41 @@ import SideNav from "../Nav/SideNav/SideNav";
 import Intro from "../Intro/Intro";
 import { Link } from "react-router-dom";
 import "./Projects.css";
-import Utility from "../Utility/Utility";
+import  Dean_Prod  from "../../assets/Dean-Prod.jpg";
 
+const projectData = [
+  {
+    id: "1",
+    title: "Crypto Marketcap app",
+    description:
+      "React.js app that will help you keep up-to-date with the latest market cap of crypto currencies",
+    link: "https://deanproductions-75095.web.app",
+    source: Dean_Prod,
+  },
+  {
+    id: "2",
+    title: "Dean Productions",
+    description:
+      "Firebase realtime database for contact and message submissions",
+  },
+  {
+    id: "3",
+    title: "Your Weather",
+    description:
+      "***LIST API*** to retreive weather and weather metrics around the world",
+  },
+];
 
 class Projects extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={}
+    this.state = {};
   }
 
-  render(props) {
-    console.log(this.props.data)
-   
-    
-    //  function handleMap(data){
-      //   console.log(data)
-      //  }
-      
-      return (
-        <div className="page-container">
+  render() {
+  
+    return (
+      <div className="page-container">
         <div className="navbar sticky-top bg-dark left-side-projects ">
           <SideNav />
         </div>
@@ -30,38 +46,40 @@ class Projects extends Component {
           <Intro />
           <br />
           <br />
+
           <div className="project-cards-container">
             <div className="project-cards">
               <h4 className="edu-title">Projects</h4>
 
-              {/* <Utility data={data}/> */}
-      
-        {/* {projectData.map(project => {
-          return(
-
-              <Link to={() => "cars.com"}>
-                <div className="card bg-light text-dark">
-                  <img
-                    className="card-img"
-                    // src={}
-                    alt="Card "
-                  />
-                  <div className="card-img-overlay">
-                    <h5 className="card-title"> {project.title}</h5>
-                    <p className="card-text">
-                      Technology Description
-                      <ul>
-                        <li>
-                        {project.description}
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-              </Link>
-          )
-        })} */}
-
+              {projectData.map((project) => {
+                return (
+                  <Link
+                    key={project.id}
+                    onClick={() => (window.location = project.link)}
+                    to={"#"}
+                  >
+                    <div
+                      className="card bg-light text-dark project-card"
+                      key={projectData.id}
+                    >
+                      <img
+                        className="card-img"
+                        src={project.source}
+                        alt="Card "
+                      />
+                      <div className="card-img-overlay">
+                        <h5 className="card-title"> {project.title}</h5>
+                        <div className="card-text">
+                          Technology Description
+                          <ul>
+                            <li>{project.description}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

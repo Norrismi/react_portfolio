@@ -4,12 +4,6 @@
     justify-content: center;
 }
 
-
-/* .project-cards{
-   
-    flex-direction: column;
- 
-} */
 .card {
     margin-bottom: 15px;
     width: 900px;
@@ -19,8 +13,17 @@
 
 }
 
+.project-card{
+    display: flex;
+}
+
 .card-img{
-    opacity: .08;
+    opacity: .2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    max-width: 50%;
+   
 }
 
 .card-text{
