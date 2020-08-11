@@ -4,7 +4,7 @@ import Me from "./components/Me/Me";
 import Education from "./components/Education/Education";
 import Projects from './components/Projects/Projects'
 import NotFound from './components/Nav/NotFound/NotFound'
-// import SideNav from './components/Nav/SideNav/SideNav'
+
 
 
 function App() {

@@ -2,11 +2,13 @@ import React from "react";
 import "./Intro.css";
 import MDNpicture from "../../assets/MDN.jpg";
 
+
 const Intro = () => {
   return (
     <div className="intro-container">
       <div>
         <img src={MDNpicture} alt="author" />
+     
       </div>
       <div className="text-links">
         <div className="intro-name">Michael Norris</div>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import "./SideNav.css";
 
-const TopNav = () => {
+const SideNav = () => {
   return (
     // <div className="page-container sticky-top">
       <nav className="navbar sticky-top bg-dark left-side ">
@@ -27,4 +27,4 @@ const TopNav = () => {
   );
 };
 
-export default TopNav;
+export default SideNav;
