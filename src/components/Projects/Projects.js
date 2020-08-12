@@ -3,22 +3,29 @@ import SideNav from "../Nav/SideNav/SideNav";
 import Intro from "../Intro/Intro";
 import { Link } from "react-router-dom";
 import "./Projects.css";
-import  Dean_Prod  from "../../assets/Dean-Prod.jpg";
+import Dean_Prod from "../../assets/Dean-Prod.jpg";
 
 const projectData = [
   {
     id: "1",
     title: "Crypto Marketcap app",
     description:
-      "React.js app that will help you keep up-to-date with the latest market cap of crypto currencies",
-    link: "https://deanproductions-75095.web.app",
-    source: Dean_Prod,
+      "React.js app that will help you keep up-to-date with the latest marketcap of crypto currencies",
+
   },
   {
     id: "2",
     title: "Dean Productions",
     description:
       "Firebase realtime database for contact and message submissions",
+      link: "https://deanproductions-75095.web.app",
+      source: Dean_Prod,
+  },
+  {
+    id: "3",
+    title: "Your Weather",
+    description:
+      "***LIST API*** to retreive weather and weather metrics around the world",
   },
   {
     id: "3",
@@ -35,7 +42,6 @@ class Projects extends Component {
   }
 
   render() {
-  
     return (
       <div className="page-container">
         <div className="navbar sticky-top bg-dark left-side-projects ">
@@ -47,37 +53,23 @@ class Projects extends Component {
           <br />
           <br />
 
-          <div className="project-cards-container">
-            <div className="project-cards">
-              <h4 className="edu-title">Projects</h4>
-
+          <h4 className="edu-title">Projects</h4>
+          <div className="project-cards-container ">
+            <div className="project-cards ">
               {projectData.map((project) => {
                 return (
-                  <Link
-                    key={project.id}
-                    onClick={() => (window.location = project.link)}
-                    to={"#"}
-                  >
-                    <div
-                      className="card bg-light text-dark project-card"
-                      key={projectData.id}
-                    >
-                      <img
-                        className="card-img"
-                        src={project.source}
-                        alt="Card "
-                      />
-                      <div className="card-img-overlay">
-                        <h5 className="card-title"> {project.title}</h5>
-                        <div className="card-text">
-                          Technology Description
-                          <ul>
-                            <li>{project.description}</li>
-                          </ul>
-                        </div>
-                      </div>
+                  <div className="card">
+                    <img className="card-img-top" src={project.source} alt="Card cap" />
+                    <div className="card-body">
+                      <h5 className="card-title">{project.title}</h5>
+                      <p className="card-text">
+                       {project.description}
+                      </p>
+                      <a href={project.link} className="btn btn-outline-secondary">
+                        Visit Website
+                      </a>
                     </div>
-                  </Link>
+                  </div>
                 );
               })}
             </div>

@@ -5,7 +5,7 @@ import "./SideNav.css";
 
 const SideNav = () => {
   return (
-    // <div className="page-container sticky-top">
+   
       <nav className="navbar sticky-top bg-dark left-side ">
         <Nav className="navbar-nav  sidebar">
           <NavLink
@@ -23,7 +23,7 @@ const SideNav = () => {
           </NavLink>
         </Nav>
       </nav>
-    // </div>
+   
   );
 };
 

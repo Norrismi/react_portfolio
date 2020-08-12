@@ -4,10 +4,11 @@
 
 
 .right-side {
-    padding: 15px;
+    padding: 30px;
     color: black;
     background-color: white;
     font-size: 12px;
     flex: 1;
-    height: 100vh
+    height: 100vh;
+    
 }
