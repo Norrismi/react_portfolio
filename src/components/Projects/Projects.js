@@ -1,41 +1,48 @@
 import React, { Component } from "react";
 import SideNav from "../Nav/SideNav/SideNav";
 import Intro from "../Intro/Intro";
-import { Link } from "react-router-dom";
 import "./Projects.css";
-import Dean_Prod from "../../assets/Dean-Prod.jpg";
+import StHillaire_Prod from "../../assets/StHillaire_Prod.jpg";
 import weatherPic from "../../assets/your_weather.jpg";
+import TallGrassland from '../../assets/TallGrassland.jpg'
 
 const projectData = [
   {
     id: "1",
+    title: "TallGrassland.com",
+    description:
+      "Real Estate website, uses React Redux for state management, Google Cloud Firestore and Google Cloud Storage",
+      link: 'https://tallgrassland.com',
+      source: TallGrassland
+
+  },
+  {
+    id: "2",
+    title: "St. Hillaire Productions",
+    description:
+      "React.js and Node.js app utilizing NodeMailer to keep business owner up-to-date on website submissions. Submissions are backed up with Google Firebase Realtime Database.",
+    link: "https://deanproductions-75095.web.app",
+    source: StHillaire_Prod,
+  },
+  {
+    id: "3",
     title: "Crypto Marketcap app",
     description:
       "React.js app that will help you keep up-to-date with the latest marketcap of crypto currencies",
   },
   {
-    id: "2",
-    title: "Dean Productions",
-    description:
-      "Firebase realtime database for contact and message submissions",
-    link: "https://deanproductions-75095.web.app",
-    source: Dean_Prod,
-  },
-  {
-    id: "3",
+    id: "4",
     title: "Your Weather",
     description:
       "Used weatherstack.com API to retreive weather and weather metrics around the world",
-    link: "https://yourweather-eccfb.web.app",
+    link: "http://your-weather7.herokuapp.com/",
     source: weatherPic,
   },
 ];
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+
+  state = {};
 
   render() {
     return (
@@ -65,6 +72,8 @@ class Projects extends Component {
                       <p className="card-text">{project.description}</p>
                       <a
                         href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="btn btn-outline-secondary"
                       >
                         Visit Website
