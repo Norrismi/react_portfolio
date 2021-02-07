@@ -1,9 +1,14 @@
-.edu-school {
+.edu__school {
     font-size: 20px;
 }
 
-.edu-desc {
+.edu__desc {
     font-size: 18px;
     font-weight: 300;
+}
+
+.edu__info-container{
+    margin-bottom: 200px;
+    height: auto;
 }
 

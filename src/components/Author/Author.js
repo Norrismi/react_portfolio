@@ -1,7 +1,9 @@
 import React from "react";
-import "./Me.css";
+import "./Author.css";
 import SideNav from "../Nav/SideNav/SideNav";
 import Intro from '../Intro/Intro'
+import BottomSVG from '../Utility/BottomSVG'
+import TopSVG from '../Utility/TopSVG'
 
 const Me = () => {
   return (
@@ -10,11 +12,18 @@ const Me = () => {
         <SideNav />
       </div>
 
-      <div className="me-container right-side">
-          <Intro/>
-          
-       
-        <br />
+      <div className="author__container right-side">
+
+        <div className='projects__svg-container' >
+
+
+
+          <TopSVG />
+          <Intro />
+          <div className='author__info-container'>
+
+
+          <br />
         Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia
         mustache 90's code editing brunch. Butcher polaroid VHS art party,
         hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid
@@ -75,6 +84,9 @@ const Me = () => {
         trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch
         selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie
         iPhone fanny pack art party Portland.
+          </div>
+    <BottomSVG />
+        </div>
       </div>
     </div>
   );

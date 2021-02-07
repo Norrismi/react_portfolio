@@ -1,9 +1,11 @@
-.intro-container {
+
+
+.intro__container {
     display: flex;
     flex-direction: row;
 }
 
-.text-links {
+.intro__text-links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,21 +14,29 @@
     font-weight: 300;
 }
 
-img{
+.intro__img{
     height: 200px;
     width: auto;
 }
 
-.intro-name{
+.intro__name{
     font-size: 30px;
     font-weight: 400;
 }
 
-.intro-mission {
+.intro__mission {
     width: 380px;
 }
 
-#intro-link{
-    text-decoration: none;
+#intro__link{
+    text-decoration: underline;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#intro__link:hover{
+    text-decoration: underline;
+    color: yellow;
+    width: 50px;
 }
 

@@ -26,12 +26,6 @@ const projectData = [
     link: "https://deanproductions-75095.web.app",
     source: StHillaire_Prod,
   },
-  // {
-  //   id: "3",
-  //   title: "Crypto Marketcap app",
-  //   description:
-  //     "React.js app that will help you keep up-to-date with the latest marketcap of crypto currencies",
-  // },
   {
     id: "4",
     title: "Your Weather",
@@ -59,7 +53,7 @@ class Projects extends Component {
 
 
         <div className="me-container right-side">
-          <div style={{ overflow: "hidden", backgroundColor: "lightblue", zindex: "-1", position: 'relative' }}>
+          <div className='projects__svg-container' >
 
             <TopSVG />
 
@@ -80,8 +74,8 @@ class Projects extends Component {
                         alt="Card cap"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">{project.title}</h5>
-                        <p className="card-text">{project.description}</p>
+                        <h5 className="projects__card-title">{project.title}</h5>
+                        <p className="projects__card-text">{project.description}</p>
                         <a
                           href={project.link}
                           target="_blank"

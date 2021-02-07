@@ -1,13 +1,13 @@
-*{
-  font-family: Roboto, "Segoe UI",  sans-serif;
+* {
+  font-family: Roboto, "Segoe UI", sans-serif;
+  color: white;
 }
 
 
 body {
   box-sizing: border-box;
   margin: 0px;
- 
-  /* background-color: #343A40 !important; */
- 
-}
 
+
+
+}
