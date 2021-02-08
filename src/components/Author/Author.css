@@ -1,3 +1,9 @@
+.author__container{
+    margin-right: 20px;
+}
+
+
+
 .page-container {
     display: flex;
 }
@@ -14,7 +20,7 @@
 }
 
 .author__info-container{
-    margin-bottom: 200px;
-    height: auto;
+    height: 100vh;
+    margin: 0 20px 200px 20px;
 }
 

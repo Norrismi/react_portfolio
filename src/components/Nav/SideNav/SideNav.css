@@ -17,7 +17,6 @@
 }
 
 
-
 .link {
     display: flex;
     text-decoration: none !important;
@@ -27,8 +26,34 @@
 
 .link:hover {
     display: flex;
-    justify-content: flex-end !important;
+    /* justify-content: flex-end !important; */
     /* background-color: white; */
-    color: greenyellow !important;
+    color: #B014DF !important;
     border-radius: 25px;
 }
+
+.link:active {
+    color: #B014DF !important;
+}
+
+
+/* @media (min-width: 50px) {
+ 
+    nav.navbar{
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 50px;     
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+      
+        height: 50px;     
+    }
+
+} */

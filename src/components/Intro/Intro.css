@@ -3,6 +3,7 @@
 .intro__container {
     display: flex;
     flex-direction: row;
+    margin-left: 20px;
 }
 
 .intro__text-links {

@@ -7,11 +7,11 @@ const SideNav = () => {
   return (
    
       <nav className="navbar sticky-top bg-dark left-side ">
-        <Nav className="navbar-nav  sidebar">
+        <Nav className="navbar-nav sidebar">
           <NavLink
             exact
             to="/"
-            className="d-inline p-3 text-white link "
+            className="d-inline p-3 text-white  link nav-link "
           >
             Michael Norris
           </NavLink>

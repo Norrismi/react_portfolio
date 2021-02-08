@@ -61,15 +61,14 @@ class Projects extends Component {
             <br />
             <br />
 
-            <h4 className="edu-title">Projects</h4>
             <div className="project-cards-container ">
 
+            <h4>Projects</h4>
               <div className="project-cards ">
                 {projectData.map((project) => {
                   return (
                     <div className="card" key={project.id}>
                       <img
-                        className="card-img-top"
                         src={project.source}
                         alt="Card cap"
                       />

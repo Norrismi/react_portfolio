@@ -1,7 +1,10 @@
 .project-cards-container {
     flex-direction: row;
     flex: 1;
-
+    margin-left: 20px;
+    margin-bottom: 175px;
+    
+    
 }
 
 .projects__svg-container {
@@ -16,20 +19,12 @@
     display: flex;
     max-width: auto;
     flex-wrap: wrap;
-    margin-bottom: 275px;
-    margin-left: 15px;
-
-
-
-
 }
 
 .card {
     margin: 15px 15px 0 0;
     width: 30rem;
-
 }
-
 
 
 .card-img {
@@ -41,13 +36,13 @@
 }
 
 .projects__card-title {
-    color: grey;
+    color: navy;
 }
 
 .projects__card-text {
     font-size: 16px;
     justify-content: center;
-    color: grey;
+    color: navy;
 }
 
 .right-side {
@@ -55,10 +50,13 @@
     position: relative;
     margin: 0;
     padding: 0;
-
-
-
 }
+
+.btn.btn-outline-secondary{
+    color: navy;
+    border-color: navy;
+}
+
 
 
 
@@ -92,5 +90,7 @@
     
     /* color at bottom of page */
     
-    fill: #C092FF;
+    /* fill: #C092FF; */
+
+    fill: #8418F5;
 }
