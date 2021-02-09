@@ -46,9 +46,9 @@ class Projects extends Component {
       <div className="page-container  ">
 
 
-        <div className="navbar sticky-top bg-dark left-side-projects ">
+        {/* <div className="navbar sticky-top bg-dark left-side-projects ">
           <SideNav />
-        </div>
+        </div> */}
 
 
 

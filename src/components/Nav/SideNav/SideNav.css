@@ -1,4 +1,4 @@
-.right-side{
+/* .right-side{
     height: 100vh;
   
 }
@@ -6,6 +6,16 @@
 .left-side{
     height: 100vh;
    
+} */
+
+.sidebar__container{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.sidenav__links{
+    display: flex;
+    flex-direction: column !important ;
 }
 
 
