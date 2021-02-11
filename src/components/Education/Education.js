@@ -1,5 +1,4 @@
 import React from "react";
-import SideNav from "../Nav/SideNav/SideNav";
 import Intro from "../Intro/Intro";
 import './Education.css'
 import BottomSVG from '../Utility/BottomSVG'
@@ -7,13 +6,11 @@ import TopSVG from '../Utility/TopSVG'
 
 const Education = () => {
   return (
-    <div className="page-container">
-      <div className="navbar sticky-top bg-dark left-side ">
-        <SideNav />
-      </div>
+    <div className="edu__container">
+      
 
       <div className="me-container right-side">
-      <div className='projects__svg-container' >
+     
         <TopSVG/>
 
         <Intro />
@@ -38,8 +35,8 @@ const Education = () => {
         <div className=" edu__desc edu__desc-bottom ">Bachelor's of Arts, Geography</div>
         </div>
       
+   
       <BottomSVG/>
-      </div>
       </div>
     </div>
   );

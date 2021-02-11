@@ -1,4 +1,6 @@
-/* .right-side{
+
+
+ /* .right-side{
     height: 100vh;
   
 }
@@ -6,7 +8,7 @@
 .left-side{
     height: 100vh;
    
-} */
+}
 
 .sidebar__container{
     display: flex;
@@ -23,7 +25,7 @@
     display: flex;
     flex-direction: column;
     flex: 0.2;
-    /* height: 100vh; */
+   
 }
 
 
@@ -36,15 +38,13 @@
 
 .link:hover {
     display: flex;
-    /* justify-content: flex-end !important; */
-    /* background-color: white; */
     color: #B014DF !important;
     border-radius: 25px;
 }
 
 .link:active {
     color: #B014DF !important;
-}
+}  */
 
 
 /* @media (min-width: 50px) {
@@ -67,3 +67,6 @@
     }
 
 } */
+
+
+

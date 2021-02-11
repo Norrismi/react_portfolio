@@ -41,3 +41,29 @@
     width: 50px;
 }
 
+
+@media (min-width: 300px) {
+
+    .intro__img{
+        margin: 20px;
+    }
+
+    .intro__container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .intro__text-links {
+        align-items: center;
+        padding: 0;
+    }
+
+    .intro__mission {
+        width: 320px;
+        margin: 10px ;
+    }
+
+
+
+  }
+

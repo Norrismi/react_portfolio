@@ -43,28 +43,17 @@ class Projects extends Component {
   render() {
     return (
 
-      <div className="page-container  ">
-
-
-        {/* <div className="navbar sticky-top bg-dark left-side-projects ">
-          <SideNav />
-        </div> */}
-
-
-
-        <div className="me-container right-side">
-          <div className='projects__svg-container' >
+      <div className="projects__container right-side ">
 
             <TopSVG />
-
             <Intro />
             <br />
             <br />
 
-            <div className="project-cards-container ">
+            <div className="projects__cards-container ">
 
             <h4>Projects</h4>
-              <div className="project-cards ">
+              <div className="project__cards ">
                 {projectData.map((project) => {
                   return (
                     <div className="card" key={project.id}>
@@ -89,11 +78,12 @@ class Projects extends Component {
                 })}
               </div>
             </div>
-          </div>
+        
+
+     
 
           <BottomSVG />
-
-        </div>
+    
 
       </div>
     );

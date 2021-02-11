@@ -6,21 +6,15 @@
 
 .page-container {
     display: flex;
+    background-color: navy;
+  
 }
 
 
-.right-side {
-    padding: 30px;
-    color: black;
-    background-color: white;
-    font-size: 12px;
-    flex: 1;
-    height: 100vh;
-    
-}
 
 .author__info-container{
     height: 100vh;
-    margin: 0 20px 200px 20px;
+    margin: 0 20px 1000px 20px;
+   
 }
 
