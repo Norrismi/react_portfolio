@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 import {
   FaGithub,
   FaCode,
-  FaLinkedin
+  FaLinkedin,
+  FaAt
 
 } from "react-icons/fa";
 
@@ -19,21 +20,18 @@ const Intro = () => {
       <div className="intro__text-links">
         <div className="intro__name">Michael Norris</div>
         <div className="intro-location">Hilton Head, SC</div>
-        <a
-          href="mailto:Norrismi0@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          id='intro__link'
-        >
-          Norrismi0@gmail.com
-        </a>
+       
         <div className="intro__mission">
           I'm currently seeking opportunities to work, grow and help the
           development community.
         </div>
 
         <div className='intro__icon-container'>
-          <div className='intro__github'>
+
+
+
+       
+          <div className='intro__github fa-spin'>
             <a
               href="https://github.com/Norrismi"
               target="_blank"
@@ -71,6 +69,17 @@ const Intro = () => {
             </a>
           </div>
 
+          <div className='intro__email'>
+            <a
+              href="mailto:Norrismi0@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt='Email'
+              title='Email'
+            >
+              <FaAt id='intro__icon' />
+            </a>
+          </div>
 
 
 

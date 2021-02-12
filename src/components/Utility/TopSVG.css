@@ -1,0 +1,18 @@
+.topsvg__styles {
+    fill: white;
+    width: 100vw;
+    height: 60px;
+    transform: scaleX(-1);
+}
+
+@media (min-width: 300px) {
+
+    .topsvg__styles {
+ 
+        height: 30px;
+   
+    }
+
+
+
+  }
