@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../Intro/Intro";
+
 import './Education.css'
 import BottomSVG from '../Utility/BottomSVG'
 import TopSVG from '../Utility/TopSVG'
@@ -13,12 +13,12 @@ const Education = () => {
      
         <TopSVG/>
 
-        <Intro />
+    
         <br />
         <br />
         <div className='edu__info-container'>
 
-        <h4 className="edu__title">Education</h4>
+        <h4 className="edu__header">Education</h4>
         <br/>
         <br/>
 

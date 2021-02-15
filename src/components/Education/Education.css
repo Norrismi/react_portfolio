@@ -3,6 +3,12 @@
     background-color: navy;
 }
 
+.edu__header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 
 .edu__school {
     font-size: 20px;

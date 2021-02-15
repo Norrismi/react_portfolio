@@ -1,7 +1,12 @@
 .projects__container{
 background-color: navy;
 
+}
 
+.projects__header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import SideNav from "../Nav/SideNav/SideNav";
-import Intro from "../Intro/Intro";
+
 import "./Projects.css";
 import StHillaire_Prod from "../../assets/StHillaire_Prod.jpg";
 import weatherPic from "../../assets/your_weather.jpg";
 import TallGrassland from '../../assets/TallGrassland.jpg'
 import BottomSVG from '../Utility/BottomSVG'
 import TopSVG from '../Utility/TopSVG'
+import FooterNav from '../Nav/Footer/FooterNav'
 
 const projectData = [
   {
@@ -46,13 +46,13 @@ class Projects extends Component {
       <div className="projects__container right-side ">
 
             <TopSVG />
-            <Intro />
+        
             <br />
             <br />
 
             <div className="projects__cards-container ">
 
-            <h4>Projects</h4>
+            <h2 className='projects__header'>Projects</h2>
               <div className="project__cards ">
                 {projectData.map((project) => {
                   return (
@@ -81,7 +81,8 @@ class Projects extends Component {
         
 
      
-
+                <FooterNav />
+                
           <BottomSVG />
     
 

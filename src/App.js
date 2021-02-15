@@ -4,8 +4,8 @@ import Author from "./components/Author/Author";
 import Education from "./components/Education/Education";
 import Projects from './components/Projects/Projects'
 import NotFound from './components/Nav/NotFound/NotFound'
-// import SideNav from './components/Nav/SideNav/SideNav'
 import TopNav from './components/Nav/TopNav/TopNav'
+
 
 
 
@@ -15,7 +15,7 @@ function App() {
  
     <Router>
       <TopNav/>
-      {/* <SideNav/> */}
+
       <Switch>
         <Route path="/education" component={Education} />
         <Route path="/projects" component={Projects} />
