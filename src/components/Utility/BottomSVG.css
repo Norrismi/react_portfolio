@@ -1,0 +1,27 @@
+/* 
+.bottomsvg__svg{
+    height: auto;
+ 
+}
+
+.bottomsvg__path-shape-fill{
+ 
+     height: auto;
+}
+
+
+@media (min-width: 410px) {
+
+
+.bottomsvg__svg{
+   
+    display: none;
+}
+
+.bottomsvg__path-shape-fill{
+    display: none;
+     height: 100vh;
+}
+
+
+} */

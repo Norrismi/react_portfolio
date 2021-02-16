@@ -43,16 +43,15 @@ class Projects extends Component {
   render() {
     return (
 
-      <div className="projects__container right-side ">
+      <div className="projects__container ">
 
         <TopSVG />
 
-        <br />
-        <br />
+     
 
         <div className="projects__cards-container ">
 
-          <h2 className='projects__header'>Projects</h2>
+          <h3 className='projects__header'>Projects</h3>
           <div className="project__cards ">
             {projectData.map((project) => {
               return (

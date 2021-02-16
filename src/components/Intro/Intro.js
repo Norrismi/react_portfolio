@@ -16,8 +16,8 @@ const Intro = () => {
         <div className="intro__name">Michael Norris</div>
         <div className="intro-location">Hilton Head, South Carolina</div>
        
-        <div className="intro__mission">
-          I'm currently seeking opportunities to work, grow and help the
+        <div className="intro__mission-statement">
+          I'm currently seeking opportunities to work, grow and help the javascript
           development community.
         </div>
 

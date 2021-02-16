@@ -10,7 +10,8 @@ import {
   FaChartBar,
   FaLaptopCode,
   FaLightbulb,
-  FaUsers
+  FaUsers,
+  FaPepperHot
 
 } from "react-icons/fa";
 
@@ -25,55 +26,49 @@ const Me = () => {
         <TopSVG />
         <Intro />
         <hr className="author__hr-break" />
+        <h3 className='author__body-title'>A Little Bit About Michael</h3>
+        
         <div className='author__info-container'>
 
           <div className='author__about-text'>
             <div>
-
-              < FaLightbulb  className='author__about-icon'/>
+              < FaLightbulb className='author__about-icon' />
             </div>
             Enjoys bringing ideas to life
           </div>
-
-
           <div className='author__about-text'>
             <div>
-
-              <  FaUsers  className='author__about-icon'/>
+              <  FaUsers className='author__about-icon' />
             </div>
             Loves to Share Knowledge
           </div>
-
-
-      
-
           <div className='author__about-text'>
             <div>
-
-              < FaLaptopCode  className='author__about-icon'/>
+              < FaLaptopCode className='author__about-icon' />
             </div>
           Cryptocurrency Enthusiast
           </div>
 
-          <div className='author__about-text'> 
-
+          <div className='author__about-text'>
             <div>
-
-              < FaChartBar  className='author__about-icon'/>
+              < FaChartBar className='author__about-icon' />
             </div>
             Stock Market Enthusiast
           </div>
 
-
-
-
+          <div className='author__about-text'>
+            <div>
+              < FaPepperHot className='author__about-icon' />
+            </div>
+              Foodie
+          </div>
         </div>
         <BottomSVG />
         <div className='author__footernav-container'>
           {/* <div>Connect/ Social Media</div> */}
           <FooterNav />
-        </div>
       </div>
+        </div>
 
     </div>
   );

@@ -6,17 +6,20 @@
 .edu__header{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 
 .edu__school {
     font-size: 20px;
+    
 }
 
 .edu__desc {
     font-size: 18px;
     font-weight: 300;
+    margin-bottom: 20px;
+    
 }
 
 .edu__info-container{
@@ -30,3 +33,36 @@
     background-color: #841AF5;
     padding: 20px;
 }
+
+
+@media (min-width: 300px) {
+
+
+    .edu__info-container{
+        height: auto;
+    }
+
+    .edu__desc {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+
+  }
+
+  @media (min-width: 375px) {
+
+    .edu__container{
+        height: auto;
+    }
+
+    .edu__info-container{
+       height: 100vh;
+    } 
+
+
+  }
+
+
+
+

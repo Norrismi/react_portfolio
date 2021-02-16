@@ -3,7 +3,8 @@
 .intro__container {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    
 }
 
 .intro__text-links {
@@ -13,19 +14,22 @@
     padding-left: 15px;
     font-size: 16px;
     font-weight: 300;
+   
 }
 
 .intro__img{
     height: 200px;
     width: auto;
+    border-radius: 20px;
 }
 
 .intro__name{
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
 }
 
-.intro__mission {
+.intro__mission-statement {
     width: 380px;
 }
 
@@ -50,24 +54,24 @@
         margin: 20px;
     }
 
-    .intro__container {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        width: 100%;
+    .intro-location{
+        display: none;
     }
 
-    .intro__mission {
-        width: 315px;
+    .intro__container {
+        padding-bottom: 5px;
     }
+
+
     .intro__text-links {
         align-items: center;
         padding: 0;
     }
 
-    .intro__mission {
-        width: 320px;
-        margin: 10px ;
+    .intro__mission-statement {
+        width: 255px;
+        margin: 10px 0 30px 0 ;
+        text-align: center;
     }
 
 

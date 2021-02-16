@@ -7,7 +7,7 @@ background-color: navy;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 
@@ -34,9 +34,10 @@ background-color: navy;
    
 }
 
-.card {
-    margin: 15px 15px 0 0;
+.project__individual-card {
+    /* margin: 15px 15px 15px 0; */
     width: 30rem;
+    
 }
 
 
@@ -58,12 +59,12 @@ background-color: navy;
     color: navy;
 }
 
-.right-side {
+/* .right-side {
     position: relative;
 
     margin: 0;
     padding: 0;
-}
+} */
 
 .btn.btn-outline-secondary{
     color: navy;
@@ -113,10 +114,16 @@ background-color: navy;
 
 @media (min-width: 300px) {
 
+    .project__cards {    
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0;
+   
+    }
 
-    /* .projects__svg-container {
-       min-height: 100vh;
-    } */
+    .card{
+        margin: 10px 15px;
+    }
 
 
 
