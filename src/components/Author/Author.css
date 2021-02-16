@@ -9,9 +9,58 @@
 }
 
 
+
+
 .author__info-container{
     height: 100vh;
-    margin: 0 20px 1000px 20px;
+    /* margin: 0 20px 1000px 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
    
 }
+
+
+.author__about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin: 30px;
+    
+}
+
+.author__about-icon{
+    width: 175%;
+    height: auto;
+}
+
+.author__footernav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #841AF5;
+    padding: 20px;
+}
+
+
+@media (min-width: 300px) {
+
+    .author__info-container{
+        height: auto;
+        margin-top: 20px;
+       
+    }
+
+    .author__hr-break{
+        
+        background-color: grey;
+    }
+
+
+
+  }
 

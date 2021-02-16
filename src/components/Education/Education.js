@@ -3,19 +3,19 @@ import React from "react";
 import './Education.css'
 import BottomSVG from '../Utility/BottomSVG'
 import TopSVG from '../Utility/TopSVG'
+import FooterNav from '../Nav/Footer/FooterNav'
 
 const Education = () => {
   return (
     <div className="edu__container">
       
 
-      <div className="me-container right-side">
+      <div className="">
      
         <TopSVG/>
 
     
-        <br />
-        <br />
+     
         <div className='edu__info-container'>
 
         <h4 className="edu__header">Education</h4>
@@ -34,9 +34,12 @@ const Education = () => {
         </div>
         <div className=" edu__desc edu__desc-bottom ">Bachelor's of Arts, Geography</div>
         </div>
-      
+
    
       <BottomSVG/>
+        <div class='edu__footernav-container'>
+          <FooterNav/>
+        </div>
       </div>
     </div>
   );

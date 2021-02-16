@@ -45,46 +45,48 @@ class Projects extends Component {
 
       <div className="projects__container right-side ">
 
-            <TopSVG />
-        
-            <br />
-            <br />
+        <TopSVG />
 
-            <div className="projects__cards-container ">
+        <br />
+        <br />
 
-            <h2 className='projects__header'>Projects</h2>
-              <div className="project__cards ">
-                {projectData.map((project) => {
-                  return (
-                    <div className="card" key={project.id}>
-                      <img
-                        src={project.source}
-                        alt="Card cap"
-                      />
-                      <div className="card-body">
-                        <h5 className="projects__card-title">{project.title}</h5>
-                        <p className="projects__card-text">{project.description}</p>
-                        <a
-                          href={project.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-outline-secondary"
-                        >
-                          Visit Website
+        <div className="projects__cards-container ">
+
+          <h2 className='projects__header'>Projects</h2>
+          <div className="project__cards ">
+            {projectData.map((project) => {
+              return (
+                <div className="card" key={project.id}>
+                  <img
+                    src={project.source}
+                    alt="Card cap"
+                  />
+                  <div className="card-body">
+                    <h5 className="projects__card-title">{project.title}</h5>
+                    <p className="projects__card-text">{project.description}</p>
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-outline-secondary"
+                    >
+                      Visit Website
                       </a>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-        
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
 
-     
-                <FooterNav />
-                
-          <BottomSVG />
-    
+
+
+        <BottomSVG />
+        <div className='projects__footernav-container'>
+
+          <FooterNav />
+        </div>
+
 
       </div>
     );

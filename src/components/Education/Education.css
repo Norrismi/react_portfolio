@@ -6,7 +6,7 @@
 .edu__header{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 
@@ -20,9 +20,13 @@
 }
 
 .edu__info-container{
-   
     height: 100vh;
-    margin-left: 20px;
-    margin: 0 20px 1000px 20px;
+    margin: 0 20px 0 20px;
 }
 
+.edu__footernav-container{
+    display: flex;
+    justify-content: center;
+    background-color: #841AF5;
+    padding: 20px;
+}
