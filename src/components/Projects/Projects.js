@@ -52,7 +52,7 @@ class Projects extends Component {
         <div className="projects__cards-container ">
 
           <h3 className='projects__header'>Projects</h3>
-          <div className="project__cards ">
+          <div className="projects__cards ">
             {projectData.map((project) => {
               return (
                 <div className="card" key={project.id}>

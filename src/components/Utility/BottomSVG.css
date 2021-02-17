@@ -1,4 +1,4 @@
-/* 
+
 .bottomsvg__svg{
     height: auto;
  
@@ -10,18 +10,15 @@
 }
 
 
-@media (min-width: 410px) {
+@media (min-width: 1024px) {
+
+    .svg-shape{
+        min-height: 32vh;
+     
+    }
+    
+  
 
 
-.bottomsvg__svg{
-   
-    display: none;
+
 }
-
-.bottomsvg__path-shape-fill{
-    display: none;
-     height: 100vh;
-}
-
-
-} */

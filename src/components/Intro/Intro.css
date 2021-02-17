@@ -1,10 +1,8 @@
-
-
 .intro__container {
     display: flex;
     flex-direction: row;
     /* margin-left: 20px; */
-    
+
 }
 
 .intro__text-links {
@@ -14,16 +12,16 @@
     padding-left: 15px;
     font-size: 16px;
     font-weight: 300;
-   
+
 }
 
-.intro__img{
+.intro__img {
     height: 200px;
     width: auto;
     border-radius: 20px;
 }
 
-.intro__name{
+.intro__name {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -33,13 +31,13 @@
     width: 380px;
 }
 
-#intro__link{
+#intro__link {
     text-decoration: underline;
     color: white;
     /* font-weight: bold; */
 }
 
-#intro__link:hover{
+#intro__link:hover {
     text-decoration: underline;
     color: yellow;
     width: 50px;
@@ -50,11 +48,11 @@
 
 @media (min-width: 300px) {
 
-    .intro__img{
+    .intro__img {
         margin: 20px;
     }
 
-    .intro-location{
+    .intro-location {
         display: none;
     }
 
@@ -70,11 +68,26 @@
 
     .intro__mission-statement {
         width: 255px;
-        margin: 10px 0 30px 0 ;
+        margin: 10px 0 30px 0;
         text-align: center;
     }
 
 
 
-  }
+}
 
+@media (min-width: 768px) {
+
+    .intro__row {
+        display: flex;
+    }
+
+    .intro__text-links {
+        margin-top: 20px;
+       
+    }
+
+
+
+
+}

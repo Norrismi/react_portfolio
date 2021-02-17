@@ -1,12 +1,9 @@
 .author__container {
     margin-right: 20px;
-}
-
-
-.page-container {
-    display: flex;
     background-color: navy;
 }
+
+
 
 .author__body-title {
     margin-top: 40px;
@@ -84,3 +81,52 @@
 
 
 }
+
+@media (min-width: 320px) {
+
+    .author__about-text {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 414px) {
+
+    .author__about-text {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+  
+
+
+
+    .author__column {
+        flex: 1;
+    }
+    .author__row {
+        display: flex;
+        align-items: center;
+        height: auto;
+        /* margin-bottom: 286px; */
+        
+        
+    }
+
+    .author__about-text {
+        font-size: 30px;
+        margin: 30px;
+       
+    
+    }
+
+    .author__about-icon{
+        width: 200%;
+        height: auto;
+    }
+
+    
+}
+
