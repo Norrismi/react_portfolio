@@ -13,11 +13,10 @@ const Education = () => {
 
       <TopSVG />
 
+        <h3 className="edu__header">Education</h3>
+     
       <div className='edu__info-container'>
 
-        <h3 className="edu__header">Education</h3>
-        <br />
-        <br />
 
         {/* • */}
 

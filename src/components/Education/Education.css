@@ -1,9 +1,8 @@
-
-.edu__container{
+.edu__container {
     background-color: navy;
 }
 
-.edu__header{
+.edu__header {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -12,33 +11,31 @@
 
 .edu__school {
     font-size: 20px;
-    
+
 }
 
 .edu__desc {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px;
-    
+
 }
 
-.edu__info-container{
+.edu__info-container {
     height: 100vh;
     margin: 0 20px 0 20px;
 }
 
-.edu__footernav-container{
+.edu__footernav-container {
     display: flex;
     justify-content: center;
     background-color: #841AF5;
     padding: 20px;
 }
 
+@media (min-width: 280px) {
 
-@media (min-width: 300px) {
-
-
-    .edu__info-container{
+    .edu__info-container {
         height: auto;
     }
 
@@ -47,36 +44,93 @@
         font-weight: 300;
     }
 
+    .edu__header {
+        margin-bottom: 15px;
+    }
 
-  }
+    .edu__school{
+        padding-top: 20px;
+    }
 
-  @media (min-width: 375px) {
+}
 
-    .edu__container{
+
+@media (min-width: 300px) {
+
+    .edu__info-container {
         height: auto;
     }
 
-    .edu__info-container{
-       height: 100vh;
-    } 
+    .edu__desc {
+        font-size: 14px;
+        font-weight: 300;
+    }
 
+    .edu__header {
+        margin-bottom: 15px;
+    }
 
-  }
+    .edu__school{
+        padding-top: 20px;
+    }
 
+}
 
-  @media (min-width: 1024px) {
+@media (min-width: 375px) {
 
-    .edu__container{
+    .edu__container {
         height: auto;
     }
 
-    .edu__info-container{
-       height: 49vh;
-    } 
+    .edu__info-container {
+        height: 100vh;
+    }
 
 
-  }
+}
+
+@media (min-width: 768px) {
+
+    .edu__header {
+        margin-bottom: 30px;
+    }
 
 
+    .edu__info-container {
+   
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
+     
+    }
+
+    .edu__school{
+        padding-top: 20px;
+    }
 
 
+/* work on bringing footer up */
+
+}
+
+
+@media (min-width: 1024px) {
+
+    .edu__container {
+        height: auto;
+    }
+
+    .edu__info-container {
+        height: 49vh;
+    }
+
+    .edu__info-container {
+   
+        width: 33%;
+        margin-right: auto;
+        margin-left: auto;
+     
+    }
+
+
+}

@@ -25,7 +25,7 @@ const Me = () => {
 
         <TopSVG />
         <Intro />
-        <hr className="author__hr-break" />
+        {/* <hr className="author__hr-break" /> */}
         <h3 className='author__body-title'>A Little Bit About Michael</h3>
 
 

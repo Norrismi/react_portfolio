@@ -11,10 +11,7 @@ const Intro = () => {
       <div className="intro__row">
         <div className='intro__column'>
 
-          {/* <div className='intro__img-container'>
-
-          </div> */}
-            <img className='intro__img' src={MDNpicture} alt="author" />
+          <img className='intro__img' src={MDNpicture} alt="author" />
         </div>
 
         <div className='intro__column'>
@@ -33,7 +30,7 @@ const Intro = () => {
 
 
 
-      <FooterNav />
+          <FooterNav />
         </div>
       </div>
 
