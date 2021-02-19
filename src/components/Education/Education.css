@@ -1,5 +1,5 @@
 .edu__container {
-    background-color: navy;
+    background: var(--theme-background)
 }
 
 .edu__header {
@@ -107,9 +107,6 @@
     .edu__school{
         padding-top: 20px;
     }
-
-
-/* work on bringing footer up */
 
 }
 

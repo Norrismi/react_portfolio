@@ -25,13 +25,8 @@ const Me = () => {
 
         <TopSVG />
         <Intro />
-        {/* <hr className="author__hr-break" /> */}
+  
         <h3 className='author__body-title'>A Little Bit About Michael</h3>
-
-
-
-
-
 
         <div className='author__info-container'>
           <div className='author__row'>
@@ -87,23 +82,11 @@ const Me = () => {
             </div>
           </div>
 
-
-
-
-
-
         </div>
-
-
-
-
-
-
 
 
         <BottomSVG />
         <div className='author__footernav-container'>
-          {/* <div>Connect/ Social Media</div> */}
           <FooterNav className='author__footernav'/>
         </div>
       </div>

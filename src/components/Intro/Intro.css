@@ -143,3 +143,21 @@
     }
 
 }
+
+@media (min-width: 1200px) {
+
+    .intro__row{
+        justify-content: center;
+        width: 80%;
+    }
+
+    .intro__column{
+        align-items: center;
+        width: 30%;
+    }
+
+    .intro__img {
+       max-width: 100%;
+    }
+
+}

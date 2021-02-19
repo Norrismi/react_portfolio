@@ -1,6 +1,5 @@
 .projects__container {
-    background-color: navy;
-
+    background: var(--theme-background)
 }
 
 .projects__header {
@@ -18,10 +17,6 @@
     margin-bottom: 175px;
 }
 
-.projects__svg-container {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(217, 29, 203, 1) 0%, rgba(111, 0, 255, 1) 90%);
-}
 
 .projects__cards {
     display: flex;
@@ -29,14 +24,6 @@
     flex-wrap: wrap;
     padding-bottom: 150px;
     margin-left: 20px;
-
-
-
-}
-
-.project__individual-card {
-    /* margin: 15px 15px 15px 0; */
-    /* width: 30rem; */
 
 }
 
@@ -50,19 +37,19 @@
 }
 
 .projects__card-title {
-    color: navy;
+    color: var(--theme-secondary-color);
 }
 
 .projects__card-text {
     font-size: 16px;
     justify-content: center;
-    color: navy;
+    color: var(--theme-secondary-color);
 }
 
 
 .btn.btn-outline-secondary {
-    color: navy;
-    border-color: navy;
+    color: var(--theme-secondary-color);
+    border-color: var(--theme-secondary-color);
 }
 
 .projects__footernav-container {
@@ -75,36 +62,6 @@
 
 
 
-
-
-.custom-shape-divider-bottom-1612571397 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612571397 svg {
-    position: relative;
-    display: block;
-    width: calc(150% + 1.9px);
-    height: 140px;
-
-
-}
-
-.custom-shape-divider-bottom-1612571397 .shape-fill {
-
-    /* color at bottom of page */
-
-    /* fill: #C092FF; */
-
-    fill: #8418F5;
-
-
-}
 
 @media (min-width: 280px) {
 
