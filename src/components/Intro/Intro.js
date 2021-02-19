@@ -24,24 +24,10 @@ const Intro = () => {
               I'm currently seeking opportunities to work, grow and help the javascript
               development community.
         </div>
-
-
           </div>
-
-
-
           <FooterNav />
         </div>
       </div>
-
-
-
-
-
-
-
-
-
 
     </div>
   );

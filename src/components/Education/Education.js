@@ -8,15 +8,9 @@ import FooterNav from '../Nav/Footer/FooterNav'
 const Education = () => {
   return (
     <div className="edu__container">
-
-
-
       <TopSVG />
-
         <h3 className="edu__header">Education</h3>
-     
       <div className='edu__info-container'>
-
         <div className="edu__school">
           <b>University of Cincinnati</b>
           <div>
@@ -26,9 +20,6 @@ const Education = () => {
         <div className="edu__desc">
           Certificate in Geographical Information System (GIS)
         </div>
-
-
-
         <div className="edu__school">
           <b>University of Cincinnati</b>
           <div>
@@ -37,13 +28,10 @@ const Education = () => {
         </div>
         <div className=" edu__desc">Bachelor's of Arts, Geography</div>
       </div>
-
       <BottomSVG />
       <div class='edu__footernav-container'>
         <FooterNav />
       </div>
-
-
     </div>
   );
 };

@@ -38,19 +38,12 @@ const projectData = [
 
 class Projects extends Component {
 
-  state = {};
-
   render() {
     return (
 
       <div className="projects__container ">
-
         <TopSVG />
-
-     
-
         <div className="projects__cards-container ">
-
           <h3 className='projects__header'>Projects</h3>
           <div className="projects__cards ">
             {projectData.map((project) => {
@@ -77,16 +70,10 @@ class Projects extends Component {
             })}
           </div>
         </div>
-
-
-
         <BottomSVG />
         <div className='projects__footernav-container'>
-
           <FooterNav />
         </div>
-
-
       </div>
     );
   }

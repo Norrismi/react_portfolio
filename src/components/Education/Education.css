@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    font-family: "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", "Arial";
+    font-weight: bold;
 }
 
 
@@ -46,6 +48,7 @@
 
     .edu__header {
         margin-bottom: 15px;
+        font-size: 30px;
     }
 
     .edu__school{
@@ -68,6 +71,7 @@
 
     .edu__header {
         margin-bottom: 15px;
+        font-size: 35px;
     }
 
     .edu__school{

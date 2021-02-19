@@ -1,5 +1,6 @@
 .projects__container {
-    background: var(--theme-background)
+    background: var(--theme-background);
+    width: 100vw;
 }
 
 .projects__header {
@@ -7,6 +8,8 @@
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 80px;
+    font-family: "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", "Arial";
+    font-weight: bold;
 }
 
 
@@ -14,7 +17,6 @@
 .projects__cards-container {
     flex-direction: row;
     flex: 1;
-    margin-bottom: 175px;
 }
 
 
@@ -22,7 +24,6 @@
     display: flex;
     max-width: auto;
     flex-wrap: wrap;
-    padding-bottom: 150px;
     margin-left: 20px;
 
 }
@@ -78,6 +79,9 @@
     .projects__card-text {
         font-size: 12px;
     }
+    .projects__header {
+        font-size: 30px;
+    }
 
 }
 
@@ -94,6 +98,11 @@
     .card {
         margin: 10px 15px;
     }
+
+    .projects__header {
+        font-size: 35px;
+    }
+
 
 }
 

@@ -8,7 +8,6 @@ const TopNav = () => {
             <button className="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
                 aria-expanded="true" aria-label="Toggle navigation">
-
                 <span className="navbar-toggler-icon"></span>
             </button>
             <a className="navbar-brand" href="/">
