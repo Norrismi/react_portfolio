@@ -8,8 +8,6 @@ import data from '../Utility/Data'
 
 
 class Projects extends Component {
-
-
   render(props) {
 
     return (

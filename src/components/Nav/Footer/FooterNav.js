@@ -12,9 +12,6 @@ const FooterNav = () => {
     return (
         <div className='footer__icon-container'>
 
-
-
-
             <div className='intro__github fa-spin'>
                 <a
                     href="https://github.com/Norrismi"
@@ -64,9 +61,6 @@ const FooterNav = () => {
                     <FaAt id='footer__icon' />
                 </a>
             </div>
-
-
-
 
         </div>
     );

@@ -1,8 +1,6 @@
 .intro__container {
     display: flex;
     flex-direction: row;
-    /* margin-left: 20px; */
-
 }
 
 .intro__text-links {
@@ -40,7 +38,6 @@
 #intro__link {
     text-decoration: underline;
     color: white;
-    /* font-weight: bold; */
 }
 
 #intro__link:hover {

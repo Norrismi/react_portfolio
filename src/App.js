@@ -8,8 +8,6 @@ import TopNav from './components/Nav/TopNav/TopNav'
 
 
 
-
-
 function App() {
   return (
  
