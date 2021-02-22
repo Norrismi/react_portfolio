@@ -4,7 +4,6 @@ import Intro from '../Intro/Intro'
 import BottomSVG from '../Utility/BottomSVG'
 import TopSVG from '../Utility/TopSVG'
 import FooterNav from '../Nav/Footer/FooterNav'
-
 import {
   FaLeanpub,
   FaChartBar,
