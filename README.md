@@ -11,9 +11,9 @@
 
 ## Project Screen Shots
 
-![home page screenshot](src/Assets/SH_Home.jpg)
+![home page screenshot](src/assets/portfolio1.jpg)
 
-![contact page screenshot](src/Assets/SH_contact.jpg)
+![project page screenshot](src/assets/portfolio2.jpg)
 
 
 
