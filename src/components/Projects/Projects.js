@@ -21,7 +21,7 @@ class Projects extends Component {
               return (
                 <div className="card" key={project.id}>
                   <img
-
+                    className='projects__img'
                     src={project.source}
                     alt="Card cap"
                   />

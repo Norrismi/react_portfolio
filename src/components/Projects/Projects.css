@@ -29,12 +29,12 @@
 }
 
 
-.card-img {
-    justify-content: center;
-    align-self: center;
-    max-width: 50%;
-    margin-top: 20px;
-    border-radius: .2;
+.projects__img {
+    /* justify-content: center;
+    align-self: center; */
+    max-width: 100%;
+    /* margin-top: 20px; */
+    /* border-radius: .2; */
 }
 
 .projects__card-title {
@@ -52,6 +52,13 @@
     color: var(--theme-secondary-color);
     border-color: var(--theme-secondary-color);
 }
+
+.btn.btn-outline-secondary:hover {
+    background-color: var( --theme-accent-color);
+    border-color: var(--theme-accent-color);
+  
+}
+
 
 .projects__footernav-container {
     display: flex;
