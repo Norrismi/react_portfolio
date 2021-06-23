@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./Projects.css";
 import BottomSVG from '../Utility/BottomSVG'
 import TopSVG from '../Utility/TopSVG'
