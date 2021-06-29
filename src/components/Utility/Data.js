@@ -20,7 +20,7 @@
       title: "St. Hillaire Productions",
       description:
         "React and Node app utilizing Node Mailer to keep business owner up-to-date on website submissions. Submissions are backed up with Google Firebase Realtime Database.",
-      link: "https://deanproductions-75095.web.app",
+      link: "https://sthillaire-productions.herokuapp.com/",
       source: StHillaire_Prod
     },
     {
