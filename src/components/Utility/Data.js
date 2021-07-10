@@ -12,15 +12,15 @@
       title: "TallGrassland.com",
       description:
         "Real Estate website, uses React Redux for state management, Google Cloud Firestore and Google Cloud Storage",
-      link: "https://tallgrassland.com",
+      link: "https://www.tallgrassland.com/",
       source: TallGrassland
     },
     {
       id: 2,
       title: "St. Hillaire Productions",
       description:
-        "React and Node app utilizing Node Mailer to keep business owner up-to-date on website submissions. Submissions are backed up with Google Firebase Realtime Database.",
-      link: "https://sthillaire-productions.herokuapp.com/",
+        "React application build for a small business owner using form validation submitted to Google Firebase Realtime Database.",
+      link: "https://dean-productions.vercel.app/",
       source: StHillaire_Prod
     },
     {
@@ -28,7 +28,7 @@
       title: "Jarvis Creek",
       description:
         "House ad featuring Leaflet Map, React Responsive Carousel and form validation with form data recorded in firebase firestore.",
-      link: "https://jarvis-creek.herokuapp.com/",
+      link: "https://jarvis-one.vercel.app/",
       source: JarvisCreek
     },
     {
