@@ -17,6 +17,14 @@
     },
     {
       id: 2,
+      title: "DT's Kitchen",
+      description:
+        "Next.js application built for a small business resturant start-up, using React Hook Form and EmailJS for notification of orders.",
+      link: "https://dt-kitchen.vercel.app/",
+      source: StHillaire_Prod
+    },
+    {
+      id: 3,
       title: "St. Hillaire Productions",
       description:
         "React application build for a small business owner using form validation submitted to Google Firebase Realtime Database.",
@@ -24,7 +32,7 @@
       source: StHillaire_Prod
     },
     {
-      id: 3,
+      id: 4,
       title: "Jarvis Creek",
       description:
         "House ad featuring Leaflet Map, React Responsive Carousel and form validation with form data recorded in firebase firestore.",
@@ -32,7 +40,7 @@
       source: JarvisCreek
     },
     {
-      id: 4,
+      id: 5,
       title: "Your Weather",
       description:
         "Used weatherstack API to retreive weather and weather metrics around the world",
