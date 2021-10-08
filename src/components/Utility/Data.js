@@ -2,6 +2,7 @@
   import StHillaire_Prod from '../../assets/StHillaire_Prod.jpg'
   import TallGrassland from '../../assets/TallGrassland.jpg'
   import JarvisCreek from '../../assets/15JarvisCreek.jpg'
+  import dtKitchen from '../../assets/dtKitchen.jpg'
   
   
   
@@ -21,7 +22,7 @@
       description:
         "Next.js application built for a small business resturant start-up, using React Hook Form and EmailJS for notification of orders.",
       link: "https://dt-kitchen.vercel.app/",
-      source: StHillaire_Prod
+      source: dtKitchen
     },
     {
       id: 3,
