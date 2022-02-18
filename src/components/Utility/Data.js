@@ -1,7 +1,6 @@
   import weather_pic from '../../assets/your_weather.jpg'
   import StHillaire_Prod from '../../assets/StHillaire_Prod.jpg'
   import TallGrassland from '../../assets/TallGrassland.jpg'
-  import JarvisCreek from '../../assets/15JarvisCreek.jpg'
   import dtKitchen from '../../assets/dtKitchen.jpg'
   
   
@@ -34,14 +33,6 @@
     },
     {
       id: 4,
-      title: "Jarvis Creek",
-      description:
-        "House ad featuring Leaflet Map, React Responsive Carousel and form validation with form data recorded in firebase firestore.",
-      link: "https://jarvis-one.vercel.app/",
-      source: JarvisCreek
-    },
-    {
-      id: 5,
       title: "Your Weather",
       description:
         "Used weatherstack API to retreive weather and weather metrics around the world",
